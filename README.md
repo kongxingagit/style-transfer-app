@@ -29,8 +29,7 @@ unzip train2014.zip
 ```
 Download reference image to take style from and save it to current dir. You can chose any picture your like. For this example we chose Starry Night by Van Gogh.
 
-![Starry night]
-(images/git_img/starry_night.jpg?raw=true "Starry night")
+<img src="images/git_img/starry_night.jpg" alt="Starry night"/>
 
 Train model: 
 ```
@@ -38,6 +37,7 @@ python style.py --style reference.jpg  --checkpoint-dir checkpoint
 ```
 The longer you train neural network, the better result you get.
 
+<img src="images/git_img/chicago.jpg" alt="Chicago" width=450/>
 <img src="images/git_img/train_1.png" alt="Training" width=450/>
 <img src="images/git_img/train_2.png" alt="Training" width=450/>
 <img src="images/git_img/train_3.png" alt="Training" width=450/>
