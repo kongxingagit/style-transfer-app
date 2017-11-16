@@ -60,5 +60,4 @@ python app.py
 ```
 Now it's alive and available at port 8080. That’s it.
 
-![Example]
-(images/git_img/example.png?raw=true "Example")
+<img src="images/git_img/example.png" alt="Example"/>
